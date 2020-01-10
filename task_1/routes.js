@@ -7,7 +7,7 @@ const requestHandler = (req, res) => {
     res.write('<form action="/create-user" method="POST"><input type="text" name="username"><button>Create User</button></form>');
     return res.end();
   }
-  if (url === '/create-user'  && method === 'POST') {
+  if (url === '/create-user' && method === 'POST') {
     const body = [];
     req.on('data', (chunk) => {
       body.push(chunk);
@@ -22,7 +22,8 @@ const requestHandler = (req, res) => {
     res.end();
   }
   if (url === '/users') {
-    res.write('<ul><li>User 1</li><li>User 2</li><li>User 3</li></ul>')
+    res.write('<ul><li>User 1</li><li>User 2</li><li>User 3</li></ul>');
+    return res.end();
   }
 };
 
