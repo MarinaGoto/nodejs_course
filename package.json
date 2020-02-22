@@ -1,0 +1,23 @@
+{
+  "name": "tasks_node_course",
+  "version": "1.0.0",
+  "description": "Tasks NodeJS Course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon task_3/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaGoto/nodejs_course.git"
+  },
+  "author": "Marina Gotovkina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaGoto/nodejs_course/issues"
+  },
+  "homepage": "https://github.com/MarinaGoto/nodejs_course#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
